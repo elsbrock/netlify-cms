@@ -77,7 +77,6 @@
   </script>
 </head>
 <body>
-
   <script src="dist/netlify-cms.js"></script>
   <script>
     var PostPreview = createClass({
@@ -180,7 +179,7 @@
       }
     `;
 
-    CMS.registerPreviewTemplate("posts", PostPreview);
+    //CMS.registerPreviewTemplate("posts", PostPreview);
     CMS.registerPreviewTemplate("general", GeneralPreview);
     CMS.registerPreviewTemplate("authors", AuthorsPreview);
     CMS.registerPreviewStyle(previewStyles, { raw: true });
